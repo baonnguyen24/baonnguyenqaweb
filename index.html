@@ -35,13 +35,13 @@
         <ul>
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#about">Projects</a></li>
-          <li><a href="#about">Contact</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <!-- end Nav bar -->
       <div class="header-social-links">
-        <a href="#" class="github"><i class="fa-brands fa-github fa-2xl "></i></a>
+        <a href="https://github.com/baonnguyen24" class="github"><i class="fa-brands fa-github fa-2xl "></i></a>
         <a href="#" class="linked-in"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
       </div>
       <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars text-xl"></i>
@@ -51,7 +51,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+  <section id="hero" class="hero d-flex flex-column justify-content-center min-vh-100">
     <div class="container px-5">
       <div class="row justify-content-center">
         <div class="col-lg-4 d-flex justify-content-center align-items-center flex-column">
@@ -65,7 +65,7 @@
           </div>
         </div>
         <div class="col-lg-7">
-          <h2 class="about-text text-center text-lg-start mt-3">About me</h2>
+          <h2 class="title text-center text-lg-start mt-3">About me</h2>
           <p>ISTQB-certified QA professional with total 6+ years of experience in quality assurance and software testing. Skilled in analyzing business requirements, designing test plans, test suites and test cases (manual & automation)</p>
           <a href="#" id="cv-download" class="px-5 py-3 rounded-5 my-3">
             <i class="fa-solid fa-file-arrow-down"></i> Download CV
@@ -77,11 +77,9 @@
             <div><span class="fw-semibold px-2">• ISTQB-certified</span></div>
           </div>
           <div class="mt-4">
-            <a href="#" class="github"><i class="fa-brands fa-github fa-2xl social-link"></i></a>
+            <a href="https://github.com/baonnguyen24" class="github"><i class="fa-brands fa-github fa-2xl social-link"></i></a>
             <a href="#" class="linked-in"><i class="fa-brands fa-linkedin fa-2xl social-link"></i></a>
           </div>
-          
-
         </div>
       </div>
     </div>
@@ -90,9 +88,63 @@
 
   <!-- Main section -->
   <main id="main">
-    <section></section>
+    <section id="about" class="container px-5">
+      <!-- What I do -->
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6" >
+          <dotlottie-wc src="https://lottie.host/c7a92b12-bdcf-477f-88d3-ae30448f72b4/JDOb0nfR2F.lottie" style="width: 500px;height: 500px" autoplay loop></dotlottie-wc>
+        </div>
+        <div class="col-lg-6 p-3">
+          <h1 class="title">What I Do</h1>
+          <h4><strong>“To learn, to learn, and to learn again.”</strong></h4>
+          <ul>
+            <li>ISTQB-Certified</li>
+            <li>Implemented different types of manual testing, including UI test, Functional Test, System Integration Test, Non-Functional Test (Stress Test, Load Test), etc.</li>
+            <li>Automation Testing with Playwright, Cypress, Selenium</li>
+            <li>API Testing with Postman</li>
+            <li>Mobile Testing with Android Studio and XCode.</li>
+            <li>Making test plan and designing test suite.</li>
+            <li>Build and maintain test scripts (Manual and Autoamtion)</li>
+            <li>Hands-on experience with Java and Spring framework (MVC)</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Proficiency -->
+      <div id="proficiency" class="row d-flex justify-content-center align-items-center" >
+        <div class="col-lg-7">
+          <h1 class="text-center title">Proficiency</h1>
+          <div class="score">
+            <h4>Test Analysis & Design</h4>
+            <div><span class="col-11"></span></div>
+          </div>
+          <div class="score">
+            <h4>Cypress</h4>
+            <div><span class="col-11"></span></div>
+          </div>
+          <div class="score">
+            <h4>Playwright</h4>
+            <div><span class="col-11"></span></div>
+          </div>
+          <div class="score">
+            <h4>API Testing</h4>
+            <div><span class="col-11"></span></div>
+          </div>
+          <div class="score">
+            <h4>Java</h4>
+            <div><span class="col-11"></span></div>
+          </div>
+          <div class="score">
+            <h4>SQL</h4>
+            <div><span class="col-11"></span></div>
+          </div>
+          
 
-    
+        </div>
+      </div>
+
+      
+
+    </section>
 
   </main>
   <!-- End #main -->
@@ -104,7 +156,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
 
   <!-- <div id="preloader">
     <div class="line"></div>
@@ -113,13 +165,11 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/7798254451.js" crossorigin="anonymous"></script>
-  <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js" type="module"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
 </body>
 

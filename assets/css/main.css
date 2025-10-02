@@ -1154,7 +1154,7 @@ section{
 
 
 
-#about li, p {
+section li, p {
   color: rgba(255, 255, 255, 0.6);
   font-size: 18px;
 }
@@ -1180,6 +1180,10 @@ section{
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
+  }
+  .animation-pic{
+    width: 350px!important;
+    height: 350px!important;
   }
 }
 
@@ -1222,6 +1226,18 @@ section{
 #experiences .title{
   font-size: 3rem;
 }
+#experiences .hieuung:hover{
+  border-color: var(--color-primary)!important;
+}
+
+/*--------------------------------------------------------------
+# Experiences
+--------------------------------------------------------------*/
+#github-projects p{
+  font-size: 1rem;
+}
+
+
 
 
 

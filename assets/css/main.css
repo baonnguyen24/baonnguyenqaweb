@@ -52,6 +52,20 @@ h6 {
   color: var(--color-primary);
 }
 
+.border {
+  background-color: #111;
+  border: 1px solid var(--color-primary)!important;
+  box-shadow: 5px 4px 8px var(--color-primary); /* subtle depth */
+}
+
+.border:hover {
+  cursor: pointer;
+  border-color: #32cf93 !important;
+  box-shadow: 5px 0px 30px var(--color-primary); /* glow appears on hover */
+}
+
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -1225,9 +1239,6 @@ section li, p {
 --------------------------------------------------------------*/
 #experiences .title{
   font-size: 3rem;
-}
-#experiences .hieuung:hover{
-  border-color: var(--color-primary)!important;
 }
 
 /*--------------------------------------------------------------

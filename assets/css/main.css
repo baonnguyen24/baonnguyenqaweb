@@ -50,6 +50,7 @@ h6 {
   font-family: var(--font-secondary);
   font-weight: 900;
   color: var(--color-primary);
+  font-size: 3rem;
 }
 
 .border {
@@ -62,6 +63,9 @@ h6 {
   cursor: pointer;
   border-color: #32cf93 !important;
   box-shadow: 5px 0px 30px var(--color-primary); /* glow appears on hover */
+}
+.text-white{
+  color: var(--color-default)!important;
 }
 
 
@@ -386,7 +390,7 @@ section{
     font-family: var(--font-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     white-space: nowrap;
@@ -512,7 +516,7 @@ section{
     justify-content: space-between;
     padding: 10px 20px;
     font-family: var(--font-primary);
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -1192,12 +1196,15 @@ section li, p {
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .hero h2, .title {
     font-size: 32px;
   }
   .animation-pic{
     width: 350px!important;
     height: 350px!important;
+  }
+  section{
+    padding: 3rem 0;
   }
 }
 
@@ -1232,13 +1239,6 @@ section li, p {
 }
 #about #education{
   font-family: var(--font-Montserrat);
-}
-
-/*--------------------------------------------------------------
-# Experiences
---------------------------------------------------------------*/
-#experiences .title{
-  font-size: 3rem;
 }
 
 /*--------------------------------------------------------------

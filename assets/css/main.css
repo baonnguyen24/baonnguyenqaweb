@@ -63,6 +63,8 @@ h6 {
   cursor: pointer;
   border-color: #32cf93 !important;
   box-shadow: 5px 0px 30px var(--color-primary); /* glow appears on hover */
+  transform: scale(1.03);
+  transition: all 0.3s;
 }
 .text-white{
   color: var(--color-default)!important;
@@ -71,7 +73,9 @@ h6 {
 section{
   padding: 6rem 0;
 }
-
+#experiences .border{
+  transform: none;
+}
 
 /*--------------------------------------------------------------
 # Scroll top button

@@ -472,7 +472,7 @@ section li, p {
 }
 
 .cv-download {
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
@@ -481,13 +481,16 @@ section li, p {
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.3s;
-  color: #fff;
+  color: #fff!important;
   background: var(--color-primary);
   z-index: 1;
+  
 }
 
 .cv-download:hover{
-  opacity: 90%;
+  color: #fff;
+  background-color: #32c28b;
+  transform: scale(1.03)
 }
 
 @media (max-width: 768px) {

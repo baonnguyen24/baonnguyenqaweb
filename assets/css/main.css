@@ -223,46 +223,29 @@ section{
 --------------------------------------------------------------*/
 header{
   background-color: rgba(255, 255, 255, 0.15);
-  /* border-radius: 16px; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12.5px);
   -webkit-backdrop-filter: blur(12.5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.header {
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 1rem 0;
-}
-/* navbar shrink */
-header {
   border: none;
   background-color: transparent;
-  transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  z-index: 997;
+  padding: 1.5rem 0;
+  /* height: 2rem;  */
 }
-  
-header.navbar-shrink {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-  
-header.navbar-shrink  {
-  height: 1.5rem;
-}
-/* end */
 
-.header .logo {
-  transition: 0.3s;
-}
+/* header.navbar-shrink {
+  height: 2rem; 
+} */
 
 .header .logo img {
-  max-height: 40px;
-}
-header.navbar-shrink .logo img{
+  margin-left: 15px;
   max-height: 35px;
+  
 }
-
-
+/* header.navbar-shrink .logo img{
+  max-height: 35px;
+  
+} */
 
 .header .header-social-links {
   padding-right: 15px;
@@ -452,6 +435,9 @@ header.navbar-shrink .logo img{
   .contact-links{
     margin-top: 20px;
     justify-content: space-evenly!important;
+  }
+  header.navbar-shrink {
+    height: 2rem; 
   }
   
 }
